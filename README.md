@@ -17,3 +17,7 @@
 * Después, añadiendo las propiedades para la base de datos H2, en el archivo application.properties:
 <img src='https://user-images.githubusercontent.com/123812766/227720729-7abd95b4-cf87-4bb5-8c97-4f208495a58a.png' width=50% height=50%/>
 
+@Override
+	public String toString () {
+		return firstName + " " + lastName + ", works as " + role + ", with a salary of: " + salary;
+	}
