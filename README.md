@@ -18,4 +18,17 @@
 <img src='https://user-images.githubusercontent.com/123812766/227720729-7abd95b4-cf87-4bb5-8c97-4f208495a58a.png' width=50% height=50%/>
 
 * Código de la clase Employee se encuentra en el proyecto.
+* Se crea una interfaz de repositorio en el paquete com.santiyjuan.repository:
+```
+package com.santiyjuan.repository;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.santiyjuan.model.Employee;
+
+@Repository
+public interface EmployeeRepository extends JpaRepository<Employee, Long>{
+
+}
+```
