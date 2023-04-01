@@ -35,7 +35,13 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>{
 * Se creó un paquete com.santiyjuan.service, con el código especificado en la guía.
 * Se añadió el código especificado a la clase con la anotación @SpringBootApplication.
 * Al compilar y ejecutar la aplicación, obtenemos lo siguiente:
-<img src='https://user-images.githubusercontent.com/123812766/229292499-0a62a500-4330-4019-a275-ba5ceb68f1cd.png' width=50% height=50%/>
+<img src='https://user-images.githubusercontent.com/123812331/229292561-b9d91e42-fdb9-4b36-8a67-22f626810f4a.png' width=50% height=50%/>  
+* Descargar imagen de MySQL, desde docker desktop:  
+<img src='https://user-images.githubusercontent.com/123812331/229293115-042a5040-8f84-44ce-b841-af7b756c0b14.png' width=50% height=50%/>  
+* Correr contenedor de MySQL:  
+<img src='https://user-images.githubusercontent.com/123812331/229293498-56d3e274-71e0-41fb-9d35-70f39d090a95.png' width=50% height=50%/>  
+* Descargar cliente de base de datos en Dbeaver.  
+* * Luego 
 
 
 
