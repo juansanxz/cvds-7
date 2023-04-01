@@ -43,6 +43,8 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>{
 * Descargar cliente de base de datos en Dbeaver.  
 * Luego de realizar la conexión, usando la clave creada con el comando docker run, debemos establecer en true el driver property allowPublicKeyRetrieval:  
 <img src='https://user-images.githubusercontent.com/123812331/229295071-40ebffb8-c43c-4168-8238-48f69ef0b3ed.png' width=50% height=50%/>   
+* Crear una tabla de la base de datos: EMPLOYEE, con las columnas especificadas.  
+<img src='https://user-images.githubusercontent.com/123812331/229295567-7acb579b-6f66-430a-96b8-7e2f3f8fdd5e.png' width=50% height=50%/>   
 
 
 
