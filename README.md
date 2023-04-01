@@ -32,5 +32,10 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>{
 
 }
 ```
-* Se creó un paquete com.santiyjuan.service
+* Se creó un paquete com.santiyjuan.service, con el código especificado en la guía.
+* Se añadió el código especificado a la clase con la anotación @SpringBootApplication.
+* Al compilar y ejecutar la aplicación, obtenemos lo siguiente:
+<img src='https://user-images.githubusercontent.com/123812766/229292499-0a62a500-4330-4019-a275-ba5ceb68f1cd.png' width=50% height=50%/>
+
+
 
